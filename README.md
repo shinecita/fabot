@@ -2,7 +2,9 @@
 
 Tiny small express app sample of interacting with the  Facebook Messenger Platform
 
-TODO: extract fbmsg and the bot ai implementation to a library
+TODO: . extract facebook message interface and the bot ai implementation to  external libraries.
+      .implemement an ai nodejs platform such as https://wit.ai/ or other on the bot layer (maybe built our own).
+      
 
 
 But for now you can :
