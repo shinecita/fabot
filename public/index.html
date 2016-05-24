@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+ <head>
+   <meta charset="utf-8">
+   <meta content="IE=edge" http-equiv="X-UA-Compatible">
+   <meta content="width=device-width, initial-scale=1" name="viewport">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="/public/assets/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+   <title>Facebook messenger api</title>
+
+ </head>
+
+<body>
+  <div class="container">
+  <h1>Fabot Activity</h1>
+    <div id="messages">  </div>
+  </div>
+
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '854091241362463',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+ </div>
+ <!--  End Main container  -->
+
+
+<!--  Footer  -->
+   <footer>
+     <div class="footer-content">
+
+     </div>
+   </footer>
+
+
+   <script src="/public/assets/js/jquery-2.2.4.min.js"></script>
+   <script src="/public/assets/js/socket.io-1.4.5.js"></script>
+   <script src="/public/assets/js/fabot.js"> </script>
+
+
+</body>
+</html>
