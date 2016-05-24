@@ -1,0 +1,19 @@
+{
+  "answers" : [
+    {
+      "answer": "Fabot is a bot.",
+      "questions": ["are you there", "what are you", "can you help me"],
+      "tags" : ["what", "what is", "what are"]
+    },
+    {
+      "answer": "Hello!",
+      "questions": ["hello", "hello there", "hi"],
+      "tags" : ["hello", "hi", "init"]
+    },
+    {
+      "answer": "The matrix is YOU!",
+      "questions": ["whats the matrix"],
+      "tags" : ["hello", "hi", "init"]
+    }
+  ]
+}
